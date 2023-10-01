@@ -98,9 +98,9 @@ jobs:
       run: |
         mkdir android-recovery
         cd android-recovery
-        git config --global user.name "Carlo Dandan"
-        git config --global user.email "jasminecarlo01@gmail.com"
-        repo init --depth=1 -u https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b ${{ github.event.inputs.MANIFEST_BRANCH }}
+        git config --global user.name "Aryan111"
+        git config --global user.email "aryanjugan1111@gmail.com"
+        repo init -u https://github.com/PitchBlackRecoveryProject/manifest_pb -b ${{ github.event.inputs.MANIFEST_BRANCH }}
         
     - name: Repo Sync
       run: |
